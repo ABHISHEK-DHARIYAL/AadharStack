@@ -1,0 +1,15 @@
+{
+  "name": "bim-backend",
+  "version": "1.0.0",
+  "description": "REST API for the SIH26116 Revit companion: IFC/GLB model upload and versioning",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
